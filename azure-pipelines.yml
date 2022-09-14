@@ -10,6 +10,7 @@ steps:
       customcommand: 'install --production'
   - script:
       npm install
+      npm build
       npm test
     displayName: 'Run unit tests'
     continueOnError: true
